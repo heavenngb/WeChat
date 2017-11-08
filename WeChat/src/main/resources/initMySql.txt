@@ -1,0 +1,10 @@
+--创建数据库
+CREATE DATABASE `spring boot` CHARACTER SET 'utf8' COLLATE 'utf8_bin';
+--SB_USER
+CREATE TABLE `spring boot`.`SB_USER`  (
+  `sb_user_id` integer(0) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `sb_user_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin,
+  `sb_user_age` varchar(255),
+  PRIMARY KEY (`sb_user_id`)
+);
+
